@@ -1,0 +1,15 @@
+body {
+text-align: center;
+}
+
+
+.form-control {
+width: 15%;
+margin: auto;
+}
+
+#write {
+	width: 80%;
+	margin: auto;
+	text-align: left;
+}
