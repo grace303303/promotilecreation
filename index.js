@@ -52,12 +52,12 @@ counter = counter +1;
         for (var elem=0; elem < name.length; elem++) {
           var alt = name[elem].innerHTML;
           if (counter%2!=0) {
-            var code='<!--row ' + row + ' starts-->' + '<tr><td align="center" style="border: 1px solid #dddddd; border-collapse: collapse;"><a href="https://${swap}'+ link +'?eeid=${eeid}&utm_source=${sourceswap}&utm_medium=email&utm_campaign=${utmCampaign}&utm_content=${utmDate}&ebtoken=${Recipient.jwt_token}"><img src="http://dreammail.edgesuite.net/PMB/Ebates/Promos/20190304_OnTrend_LC/american_eagle.png" alt="' + alt + '" border="0" style="display:block;" width="237"/></a></td>';
+            var code='<!--row ' + row + ' starts-->' + '<tr><td align="center" style="border: 1px solid #dddddd; border-collapse: collapse;"><a href="https://www.rakuten.com'+ link +'?eeid=${eeid}&utm_source=rakuten&utm_medium=email&utm_campaign=${utmCampaign}&utm_content=${utmDate}&ebtoken=${Recipient.jwt_token}"><img src="http://dreammail.edgesuite.net/PMB/Ebates/Promos/20190304_OnTrend_LC/american_eagle.png" alt="' + alt + '" border="0" style="display:block;" width="237"/></a></td>';
             document.getElementById("write").innerText += code;
             row = row +1;
           }
           else {
-            var code2='<td align="center" style="border: 1px solid #dddddd; border-collapse: collapse;"><a href="https://${swap}'+ link +'?eeid=${eeid}&utm_source=${sourceswap}&utm_medium=email&utm_campaign=${utmCampaign}&utm_content=${utmDate}&ebtoken=${Recipient.jwt_token}"><img src="http://dreammail.edgesuite.net/PMB/Ebates/Promos/20190304_OnTrend_LC/american_eagle.png" alt="' + alt + '" border="0" style="display:block;" width="237"/></a></td></tr>';
+            var code2='<td align="center" style="border: 1px solid #dddddd; border-collapse: collapse;"><a href="https://www.rakuten.com'+ link +'?eeid=${eeid}&utm_source=rakuten&utm_medium=email&utm_campaign=${utmCampaign}&utm_content=${utmDate}&ebtoken=${Recipient.jwt_token}"><img src="http://dreammail.edgesuite.net/PMB/Ebates/Promos/20190304_OnTrend_LC/american_eagle.png" alt="' + alt + '" border="0" style="display:block;" width="237"/></a></td></tr>';
             document.getElementById("write").innerText += code2;
           }
 
@@ -69,11 +69,11 @@ counter = counter +1;
   } else {
     var alert= id + " doesn't exist!";
     if (counter%2!=0) {
-      var code3='<tr><td align="center" style="border: 1px solid #dddddd; border-collapse: collapse;"><a href="https://${swap}/americaneagle.com?eeid=${eeid}&utm_source=${sourceswap}&utm_medium=email&utm_campaign=${utmCampaign}&utm_content=${utmDate}&ebtoken=${Recipient.jwt_token}"><span style="font-size:12px">' + alert + '</span></a></td>';
+      var code3='<tr><td align="center" style="border: 1px solid #dddddd; border-collapse: collapse;"><a href="https://www.rakuten.com/americaneagle.com?eeid=${eeid}&utm_source=rakuten&utm_medium=email&utm_campaign=${utmCampaign}&utm_content=${utmDate}&ebtoken=${Recipient.jwt_token}"><span style="font-size:12px">' + alert + '</span></a></td>';
       document.getElementById("write").innerText += code3;
     }
     else {
-      var code4='<td align="center" style="border: 1px solid #dddddd; border-collapse: collapse;"><a href="https://${swap}/americaneagle.com?eeid=${eeid}&utm_source=${sourceswap}&utm_medium=email&utm_campaign=${utmCampaign}&utm_content=${utmDate}&ebtoken=${Recipient.jwt_token}"<span style="font-size:12px">' + alert + '</span></a></td></tr>';
+      var code4='<td align="center" style="border: 1px solid #dddddd; border-collapse: collapse;"><a href="https://www.rakuten.com/americaneagle.com?eeid=${eeid}&utm_source=rakuten&utm_medium=email&utm_campaign=${utmCampaign}&utm_content=${utmDate}&ebtoken=${Recipient.jwt_token}"<span style="font-size:12px">' + alert + '</span></a></td></tr>';
       document.getElementById("write").innerText += code4;
     }
 
